@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "589777838243",
+    "project_id": "nichrome-final",
+    "storage_bucket": "nichrome-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589777838243:android:793cac3c651fdf11779f16",
+        "android_client_info": {
+          "package_name": "com.nichrome.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589777838243-icckv9sknrfau9679d30blj02sa3pfbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_qS1wtbuqkJafRcVfxUyW2SpQ8QNY6ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589777838243-icckv9sknrfau9679d30blj02sa3pfbg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "589777838243-gj3mgrdnbt21bt5np7vq0laeap6oom8k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nichromeTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

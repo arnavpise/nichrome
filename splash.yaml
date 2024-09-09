@@ -1,0 +1,16 @@
+flutter_native_splash:
+  color: "#DFDFDF"
+  color_dark: "#DFDFDF"
+  image: assets/logos/nichrome_square.png
+  image_dark: assets/logos/nichrome_square.png
+
+  android_12:
+    color: "#DFDFDF"
+    color_dark: "#DFDFDF"
+    image: assets/logos/nichrome_square.png
+    image_dark: assets/logos/nichrome_square.png
+
+  web: false
+
+
+  # to remove...flutter pub run flutter_native_splash:remove
