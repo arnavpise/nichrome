@@ -1,0 +1,145 @@
+
+name: nichrome_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+
+# ---------PACKAGES----------- #
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  carousel_slider: ^5.0.0
+  webview_flutter: ^4.10.0
+  flutter_inappwebview: ^6.1.5
+  logger: ^2.4.0
+
+  # Scan
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  camera: ^0.11.0+2
+  permission_handler: ^11.3.1
+  http_parser: ^4.0.2
+
+  # Utility Packages
+  http: ^1.2.0
+  intl: ^0.19.0
+  lottie: ^3.1.2
+  url_launcher: ^6.3.0
+  connectivity_plus: ^6.0.5
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0+3
+  flutter_switch: ^0.3.2
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  provider: ^6.1.2
+
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_core_web: ^2.17.4
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.2.1
+  firebase_storage: ^12.1.3
+  google_sign_in: ^6.2.1
+  form_field_validator: ^1.1.0
+
+
+  # Mahesh
+  convex_bottom_bar: ^3.2.0
+
+
+
+  # youtube
+  youtube_player_flutter: ^9.1.1
+
+  # sharing brochure
+  share_plus: ^10.1.0   # For sharing via apps like WhatsApp, Email, Telegram
+  syncfusion_flutter_pdfviewer: ^27.1.53
+
+# ----------- ./ PACKAGES END ------------ #
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ----------- LOCAL ASSETS ------------ #
+  assets:
+    - assets/logos/nichrome.png
+    - assets/logos/google.png
+    - assets/logos/nichrome_square.png
+    - assets/images/horse.gif
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/images/banners/
+    - assets/images/content/
+    - assets/images/animations/141594-animation-of-docer.json
+    - assets/images/content/user.png
+    - assets/brands/
+    - assets/fonts/
+    - assets/food/
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+    - assets/logo/
+    - assets/logos/
+    - assets/non_food/
+    - assets/pharma/
+
+  # ----------- LOCAL FONTS ------------ #
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+
+
+  # ------------Flutter Native Splash-------------#
+flutter_native_splash:
+  color: "#DFDFDF"
+  color_dark: "#DFDFDF"
+  image: assets/logos/nichrome_square.png
+  image_dark: assets/logos/nichrome_square.png
+
+  android_12:
+    color: "#DFDFDF"
+    color_dark: "#DFDFDF"
+    image: assets/logos/nichrome_square.png
+    image_dark: assets/logos/nichrome_square.png
+
+  web: false
+
+
+
+
+
